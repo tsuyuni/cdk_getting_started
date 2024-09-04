@@ -7,7 +7,7 @@ export class CdkGettingStartedStack extends cdk.Stack {
     super(scope, id, props);
 
     const deploymentBucket = new Bucket(this, "DeploymentBucket", {
-      bucketName: "cdk-getting-started-deployment-bucket",
+      bucketName: "cdk-getting-started-deployment",
     });
   }
 }
